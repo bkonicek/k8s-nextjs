@@ -3,7 +3,7 @@ const orgName = process.env.ORG_NAME ?? 'testing'
 
 const nextConfig = {
   basePath: `/${orgName.toLowerCase()}`,
-  assetPrefix: `/${orgName.toLowerCase()}`
+  assetPrefix: `/${orgName.toLowerCase()}`,
 }
 
 module.exports = nextConfig

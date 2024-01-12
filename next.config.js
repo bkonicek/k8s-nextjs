@@ -1,4 +1,4 @@
-const orgName = process.env.ORG_NAME
+const orgName = process.env.ORG_NAME ?? 'testing'
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
